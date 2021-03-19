@@ -41,7 +41,8 @@ public class Main {
 
                 HttpEntity entity = response.getEntity();
                 if (entity != null) {
-                    var result = EntityUtils.toString(entity);
+                    String result;
+                    result = EntityUtils.toString(entity);
                      parsedResponse = mapper.readValue(
                             result, mapper.getTypeFactory().constructParametricType(
                                     ApiResponse.class, Character.class));
