@@ -27,6 +27,8 @@ public class Main {
         System.out.println("Hello, World!");
         System.out.println("Hola, Amigo!");
         System.out.println("jaja!");
+        System.out.println("jaja!");
+        System.out.println("jaja!");
 
         Logger logger = LoggerFactory.getLogger(Main.class);
 
